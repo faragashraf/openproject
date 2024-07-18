@@ -143,7 +143,7 @@
     "observable-array": "0.0.4",
     "pako": "^2.0.3",
     "qr-creator": "^1.0.0",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.0",
     "screenfull": "^4.2.1",
     "stimulus-use": "^0.52.2",
