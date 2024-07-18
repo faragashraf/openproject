@@ -93,7 +93,7 @@
     "@hotwired/turbo": "^8.0.4",
     "@hotwired/turbo-rails": "^8.0.4",
     "@kolkov/ngx-gallery": "^2.0.1",
-    "@ng-select/ng-option-highlight": "13.2.0",
+    "@ng-select/ng-option-highlight": "13.3.0",
     "@ng-select/ng-select": "^13.2.0",
     "@ngneat/content-loader": "^7.0.0",
     "@ngx-formly/core": "^6.1.4",
