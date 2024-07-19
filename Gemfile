@@ -227,7 +227,7 @@ gem "factory_bot", "~> 6.4.0", require: false
 # require factory_bot_rails for convenience in core development
 gem "factory_bot_rails", "~> 6.4.0", require: false
 
-gem "turbo-rails", "~> 2.0.0"
+gem "turbo-rails", "~> 2.0.6"
 
 gem "httpx"
 
@@ -270,7 +270,7 @@ group :test do
   gem "capybara-screenshot", "~> 1.0.17"
   gem "cuprite", "~> 0.15.0"
   gem "selenium-devtools"
-  gem "selenium-webdriver", "~> 4.20"
+  gem "selenium-webdriver", "~> 4.23", ">= 4.23.0"
 
   gem "fuubar", "~> 2.5.0"
   gem "timecop", "~> 0.9.0"
@@ -390,5 +390,5 @@ gemfiles.each do |file|
 end
 
 gem "openproject-octicons", "~>19.15.0"
-gem "openproject-octicons_helper", "~>19.15.0"
+gem "openproject-octicons_helper", "~> 19.16.0"
 gem "openproject-primer_view_components", "~>0.36.0"
