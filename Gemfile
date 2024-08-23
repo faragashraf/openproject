@@ -269,8 +269,8 @@ group :test do
   gem "capybara_accessible_selectors", git: "https://github.com/citizensadvice/capybara_accessible_selectors", branch: "main"
   gem "capybara-screenshot", "~> 1.0.17"
   gem "cuprite", "~> 0.15.0"
-  gem "selenium-devtools"
-  gem "selenium-webdriver", "~> 4.20"
+  gem "selenium-devtools", ">= 0.127.0"
+  gem "selenium-webdriver", "~> 4.23", ">= 4.23.0"
 
   gem "fuubar", "~> 2.5.0"
   gem "timecop", "~> 0.9.0"
@@ -328,16 +328,16 @@ group :development, :test do
   gem "pry-rescue", "~> 1.6.0"
 
   # ruby linting
-  gem "rubocop", require: false
+  gem "rubocop", ">= 1.65.0", require: false
   gem "rubocop-capybara", require: false
   gem "rubocop-factory_bot", require: false
   gem "rubocop-performance", require: false
   gem "rubocop-rails", require: false
-  gem "rubocop-rspec", require: false
+  gem "rubocop-rspec", ">= 3.0.3", require: false
   gem "rubocop-rspec_rails", require: false
 
   # erb linting
-  gem "erb_lint", require: false
+  gem "erb_lint", ">= 0.6.0", require: false
   gem "erblint-github", require: false
 
   # Brakeman scanner
